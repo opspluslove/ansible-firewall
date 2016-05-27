@@ -7,7 +7,7 @@ In your [requirements file](https://galaxy.ansible.com/intro):
 
 ```
 - src: opspluslove.firewall
-  version: v1.0.0
+  version: v1.0.2
 ```
 
 ----
