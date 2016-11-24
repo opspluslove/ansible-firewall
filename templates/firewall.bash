@@ -64,7 +64,7 @@ iptables -A INPUT -p icmp --icmp-type time-exceeded -j ACCEPT
 
 # Additional custom rules.
 {% for rule in firewall_additional_rules %}
-{{ rule }}
+iptables {{ rule }}
 {% endfor %}
 
 # Allow established connections:
